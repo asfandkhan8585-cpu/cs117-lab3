@@ -9,7 +9,9 @@ Python is easier and faster because it hides the low-level details.
 You don’t need to worry about registers or memory management. Features like variables, functions, and loops make abstraction possible. For example, instead of writing several jump instructions for a loop, you just use for or while.
 
 3.  Comparison Table
-   
-In Assembly you deal with registers directly, Python uses variables. 
-Printing in Assembly requires system calls, Python has built-in print().
-Python loops are simpler and more readable.
+
+| Feature | Assembly Example | Python Example | Notes |
+| :--- | :--- | :--- | :--- |
+| **Variable storage** | Register (EAX) | `x = 5` | In Assembly you deal with registers directly, Python uses variables |
+| **Printing output** | `INT 21h` | `print()` | Printing in Assembly requires system calls, Python has built-in print(). |
+| **Arithmetic** | `ADD AX, BX` | `x + y` | Python loops are simpler and more readable. |
